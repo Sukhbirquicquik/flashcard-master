@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flashcard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="demo_question">Question</string>
+    <string name="demo_answer">Answer</string>
+    <string name="answer_input">Your Answer</string>
+    <string name="bottom_stack">Stack: </string>
+    <string name="bottom_stack_number">%s</string>
+    <string name="bottom_correct">Correct: </string>
+    <string name="bottom_correct_number">%s</string>
+    <string name="button_left">Reset</string>
+    <string name="button_right">Check</string>
+    <string name="button_show_solution">Show Solution</string>
+
+</resources>

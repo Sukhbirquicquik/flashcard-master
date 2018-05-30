@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="app_name">Lernkarten</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="demo_question">Frage</string>
+    <string name="demo_answer">Antwort</string>
+    <string name="answer_input">Deine Antwort</string>
+    <string name="bottom_stack">Stapel: </string>
+    <string name="bottom_stack_number">%s</string>
+    <string name="bottom_correct">Richtig: </string>
+    <string name="bottom_correct_number">%s</string>
+    <string name="button_left">Zurücksetzen</string>
+    <string name="button_right">Prüfen</string>
+    <string name="button_show_solution">Zeige Lösung</string>
+
+</resources>

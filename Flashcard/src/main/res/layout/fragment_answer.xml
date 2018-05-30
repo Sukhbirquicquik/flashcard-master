@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/your_answer"
+            android:layout_alignParentTop="true"
+            android:hint="@string/answer_input"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_left"
+            android:id="@+id/button_left"
+            android:singleLine="true"
+            android:layout_below="@+id/your_answer"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_show_solution"
+            android:id="@+id/button_show_solution"
+            android:singleLine="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/your_answer"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_right"
+            android:id="@+id/button_right"
+            android:layout_below="@+id/your_answer"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/activity_vertical_margin"/>
+</RelativeLayout>
